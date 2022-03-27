@@ -1,7 +1,7 @@
 # minecraft-world-mover
 A simple PowerShell script used to move worlds between Android and Windows versions of Minecraft: Bedrock Edition.
 
-Before you use it, you should adjust a few variables in the script:
+Before you can use it, you need to adjust a few variables in the script:
 
   - `$phoneLocation`: Path to your worlds on Android, for Minecraft versions prior to 1.18 it was something like `/storage/emulated/0/games/com.mojang/minecraftWorlds`, since 1.18 this path has changed to `/storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds`. See [this](https://help.minecraft.net/hc/en-us/articles/4411299967629) for more information.
   - `$pcLocation`: Path to your worlds on Windows.
