@@ -1,4 +1,4 @@
-# minecraft-world-mover
+# Minecraft World Relocator
 A simple PowerShell script used to move worlds between Android and Windows versions of Minecraft: Bedrock Edition.
 
 Before you can use it, you need to adjust a few variables in the script:

@@ -1,4 +1,5 @@
-# Minecraft world mover
+# Minecraft world relocator
+# v1.0
 #
 # ©2022 barty12
 
@@ -37,7 +38,7 @@ while($true){
         & $adbLocation shell mv -i "$phoneLocation/$levelName" "$phoneLocation/$($levelName)_$($date)"
 	    break
     }
-    if ($action -eq "push") {
+    elseif ($action -eq "push") {
         if (-NOT(Test-Path -Path "$pcLocation\$levelName")) {
             Write-Host "World does not exist on PC!" -ForegroundColor Red
             break
